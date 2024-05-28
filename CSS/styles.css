@@ -135,6 +135,7 @@ section.especialidades .flex{
     border-radius: 25px;
     margin-top: 45px;
     transition: .2s;
+    /* text-align: justify; depois da edição do texto eu vejo se precisa dessa config*/
 }
 
 .especialidades .especialides-box:hover{
@@ -151,3 +152,42 @@ section.especialidades .flex{
     font-size: 28px;
     margin: 15px 0;
 }
+
+/* estilo do sobre */
+
+section.sobre{
+    padding: 40px 4%;
+}
+
+section.sobre .flex{
+    align-items: center;
+    gap: 60px;
+}
+.sobre .txt-sobre{
+    color: #fff;
+}
+
+.sobre .txt-sobre h2{
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+.sobre .txt-sobre h2 span{
+    color: #F74780;
+    display: block;
+}
+
+.sobre .txt-sobre p{
+    margin: 20px 0;
+    text-align: justify;
+}
+
+.sobre .txt-sobre .btn-social button{
+    /* width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: #F74780;
+    font-size: 25px;
+} */
