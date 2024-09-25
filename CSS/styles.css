@@ -201,6 +201,49 @@ section.sobre .flex{
     margin: 0 5px;
 }
 
+/* estilo do portifólio */
 
-https://www.youtube.com/watch?v=UjlxmQst17E&list=PLaLQ4gJXUd6DP5n1t8r4rwF40ahLgUlMg&index=4&t=136s
+section.portifolio{
+    padding: 80px 4%;
+    box-shadow: 0 0 40px 10px #ffffff3d;
+}
+section.portifolio .flex{
+    justify-content: space-around;
+    /* gap: 80px; para o caso de eu querer incluir mais projetos*/
+    margin-top: 60px;
+}
+.img-port{
+    width: 360px;
+    height: 460px;
+    background-size: cover;
+    background-position: 100% 0%;
+    transition: 4s;
+    cursor: pointer;
+    border-radius: 40px;
+    position: relative;
+}
 
+.img-port:hover{
+    background-position: 100% 100%;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0000009d;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    opacity: 0;
+    transition: .5s;
+}
+.overlay:hover{
+    opacity: 1;
+}
