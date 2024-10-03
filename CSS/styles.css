@@ -6,6 +6,9 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 body{
     background-color: #212121;
@@ -189,7 +192,7 @@ section.sobre .flex{
     text-align: justify;
 }
 
-.sobre .txt-sobre .btn-social button{
+.btn-social button{
     padding: 5px 5px;
     width: 60px;
     height: 60px;
@@ -251,7 +254,7 @@ section.portifolio .flex{
 /* ESTILO DO FORMULARIO DE CONTATO */
 section.formulario{
     padding: 80px 4%;
-
+    
 }
 
 form{
@@ -288,7 +291,7 @@ form textarea{
 form .btn-enviar{
     margin-top: 40px;
     text-align: center;
-
+    
 }
 
 form .btn-enviar input{
@@ -298,4 +301,33 @@ form .btn-enviar input{
     font-weight: 600;
     cursor: pointer;
     transition: .2s;
+}
+
+/* ESTILO DO RODAPÉ */
+
+footer{
+    padding: 40px 4%;
+    box-shadow: 0 0 40px 10px #ffffff3d;
+}
+
+footer .flex{
+    justify-content: space-between;
+}
+
+footer .line-footer{
+    padding: 20px 0;
+}
+
+.border{
+    border-top: 3px solid #ff2268;
+}
+
+footer .line-footer p i{
+    color: #ff2268;
+    font-size: 22px;
+}
+
+footer .line-footer p a{
+    color: #fff;
+    text-decoration: none;
 }

@@ -18,45 +18,50 @@
     <header>
         <div class="interface">
             <div class="logo">
-                <a href="#">
+                <a href="#inicio"> <!-- Atualizado para linkar ao Início -->
                     <img class="img-logo" src="img/Code_by_PS.png" alt="Logo da a code with PS">
                 </a>
             </div><!--logotipo-->
             <nav class="menu-desktop">
                 <ul>
-                    <li><a href="#">Início</a></li>
-                    <li><a href="#">Especialidades</a></li>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Projetos</a></li>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#especialidades">Especialidades</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#projetos">Portifólio</a></li>
+                    <li><a href="#contato">Contato</a></li> <!-- Link para a seção de contato -->
                 </ul>
             </nav>
             <div class="bnt-contato">
-                <a href="#">
+                <a href="#contato">
                     <button>Contato</button>
                 </a>
             </div><!--btn-contato-->
         </div> <!--interface-->
     </header>
-        <section class="topo-do-site">
+
+    <main>
+        <!-- Início -->
+        <section class="topo-do-site" id="inicio">
             <div class="interface">
                 <div class="flex">
                     <div class="txt-topo-site">
                         <h1>TRANSFORMANDO IDEIAS EM REALIDADE DIGITAL<span>.</span></h1>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciemet consectetur adipisicing elit. Reiciemet consectetur adipisicing elit. Reiciendis ab eaque est corporis dolor deleniti modi, nisi voluptas quis voluptatem eius ut? Vero delectus quas facilis repudiandae et nesciunt fugit!</p>
                         <div class="bnt-contato">
-                            <a href="#">
+                            <a href="#contato">
                                 <button>Entre em contato</button>
                             </a>
                         </div>
                     </div><!--txt-topo-site-->
-                        <div class="img-topo-site hexagon">
-                            <img src="img/foto11.png" alt="">
-                        </div><!--img-topo-ste-->
+                    <div class="img-topo-site hexagon">
+                        <img src="img/foto11.png" alt="">
+                    </div><!--img-topo-ste-->
                 </div><!--flex-->
             </div><!--interface-->
         </section><!--Topo do site-->
 
-        <section class="especialidades">
+        <!-- Especialidades -->
+        <section class="especialidades" id="especialidades">
             <div class="interface">
                 <h2 class="titulo">MINHAS <span>ESPECIALIDADES.</span></h2>
                 <div class="flex">
@@ -79,7 +84,8 @@
             </div><!--interface-->
         </section><!--especialidades-->
 
-        <section class="sobre">
+        <!-- Sobre -->
+        <section class="sobre" id="sobre">
             <div class="interface">
                 <div class="flex">
                     <div class="img-sobre">
@@ -87,8 +93,8 @@
                     </div><!--img-sobre-->
                     <div class="txt-sobre">
                         <h2>MUITO PRAZER, <span>SOU PATRINY SILVA.</span></h2>
-                        <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia deleniti recusandae, ipsa quod repudiandae itaque, exercitationem accusamus facilis ab tenetur adipisci quam. Quaerat laudantium amet nobis doloremque. Nisi, saepe nulla!</P>
-                        <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae non distinctio iste doloribus odit eveniet, laudantium dolore dolor, numquam labore perferendis consequatur sit autem mollitia voluptates sequi, quod eaque! Voluptatibus!</P>
+                        <p>Sou uma desenvolvedora front-end com ampla experiência em tecnologias como HTML, CSS, JavaScript, React JS, TypeScript com React, jQuery, Bootstrap, VueJS e Angular. Atualmente, estagio em Análise de Sistemas, onde aprimoro minhas habilidades em SQL Server e análise de dados, complementando minha expertise em desenvolvimento web com foco na integração de sistemas e gestão de dados. Projetos notáveis incluem o "Game Shop", uma loja virtual, e a "Calculadora de Médias", uma ferramenta de cálculo interativo, além do "NC Fisiostudio", um sistema de agendamento de aulas online, que demonstra minha capacidade de criar soluções web funcionais e responsivas.</p>
+                        <P>Busco oportunidades desafiadoras que incentivem a inovação na área de front-end, com um foco a longo prazo em especialização em React e VueJS. Além de ser fluente em inglês, possuo habilidades de comunicação e gestão de projetos, que me permitem colaborar eficazmente em equipes e entregar soluções de alta qualidade.</P>
                         <div class="btn-social">
                             <a href="https://github.com/Patrinysilva"><button><i class="bi bi-git"></i></button></a>
                             <a href="https://www.linkedin.com/in/patriny-silva-4a723725a/"><button><i class="bi bi-linkedin"></i></button></a>
@@ -99,7 +105,8 @@
             </div>
         </section><!--Sobre mim-->
 
-        <section class="portifolio">
+        <!-- Portfólio -->
+        <section class="portifolio" id="projetos">
             <div class="interface">
                 <h2 class="titulo">MEU <span>PORTIFÓLIO.</span></h2>
                 <div class="flex">
@@ -113,8 +120,11 @@
                         <div class="overlay">Projeto 3</div>
                     </div>
                 </div>
+            </div><!--interface-->
         </section><!--meu portifolio-->
-        <section class="formulario">
+
+        <!-- Formulário de Contato -->
+        <section class="formulario" id="contato">
             <div class="interface">
                 <h2 class="titulo">FALE <span>COMIGO.</span></h2>
 
@@ -129,5 +139,26 @@
             </div><!--interface-->
         </section><!--formulario-->
     </main>
+
+    <footer>
+        <div class="interface">
+            <div class="line-footer flex">
+                <div class="logo-footer">
+                    <img src="img/Code_by_PS.png" alt="Logotipo Code with PS">
+                </div>
+                <div class="btn-social">
+                    <a href="https://github.com/Patrinysilva"><button><i class="bi bi-git"></i></button></a>
+                    <a href="https://www.linkedin.com/in/patriny-silva-4a723725a/"><button><i class="bi bi-linkedin"></i></button></a>
+                    <a href=""><button><i class="bi bi-envelope-at"></i></button></a>
+                </div>
+            </div>
+            <div class="line-footer border">
+                <p>
+                    <i class="bi bi-envelope"></i>
+                    <a href="mailto:patrinysilva17@gmail.com">patrinysilva17@gmail.com</a>
+                </p>
+            </div>
+        </div>
+    </footer><!--footer-->
 </body>
 </html>
